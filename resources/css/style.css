@@ -1,0 +1,585 @@
+/* Universal Styles */
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    background-color: #4A4A4A;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.25rem;
+    height: 4rem;
+    line-height: 1.4;
+    width: 25.5rem;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background-color: white;
+    border-bottom: solid 1px #C6C1C1;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+header .content {
+    align-items: center;
+    display: flex;
+    height: 5.3125rem;
+    padding: 0 1.875rem;
+}
+
+header .logo {
+    color: #4A4A4A;
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+nav a {
+    color: #4A4A4A;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+header .icon {
+    padding-left: .75rem;
+    width: 1rem;
+}
+
+header .mobile {
+    display: none;
+}
+
+header .tablet {
+    display: none;
+}
+
+
+/* Sign Up Section */
+
+#sign-up-section {
+    align-items: center;
+    background-image: url("../images/banner-landingpage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 43.5rem;
+    padding-left: 6.25rem;
+}
+
+#sign-up-cta {
+    background-color: #9DC20A;
+    border: solid 1px #979797;
+    border-radius: 0.25rem;
+    padding: 0 5rem 3.5rem;
+}
+
+#sign-up-cta .content {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    width: 25.5rem;
+}
+
+#sign-up-cta h1 {
+    color: #FFFFFF;
+    font-family: Rubik, sans-serif;
+    font-size: 3.125rem;
+    line-height: 1.4;
+}
+
+#sign-up-cta h2 {
+    font-size: 2.25rem;
+}
+
+#sign-up-cta span {
+    color: white;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+#sign-up-cta span strong {
+    font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+    font-family: "Damion", cursive;
+}
+
+#sign-up-cta .striking {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: .75rem;
+}
+
+#sign-up-cta .button {
+    margin-top: 1.625rem;
+    padding: 1.25rem 7.25rem;
+}
+
+
+/* Features Section */
+
+#features-section {
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 3.5% 2.875rem;
+}
+
+.feature {
+    background-color: white;
+    flex: 1;
+    margin: 0 1.1875rem;
+    padding: 2rem 2rem 0;
+}
+
+.feature .image-container {
+    height: 65%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.feature .content {
+    box-sizing: border-box;
+    padding: 2.5rem 0;
+}
+
+.feature h2 {
+    color: #4A4A4A;
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: .5rem;
+}
+
+.feature h3 {
+    color: #4A4A4A;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Filters Section */
+
+#filters-section {
+    background-color: #4A4A4A;
+    padding: 4rem 0;
+}
+
+#filters-section .content {
+    margin-bottom: 5rem;
+    padding: 0 .625rem;
+}
+
+#filters-section .content h2 {
+    color: white;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+#filters-section .content h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#filters-section .images-container {
+    display: flex;
+    max-width: 100%;
+    padding: 0 1%;
+}
+
+
+/* Quotes Section */
+
+#quotes-section {
+    background-color: #F3F3F3;
+}
+
+#quotes-section .content {
+    align-items: center;
+    display: flex;
+    padding: 5rem 2rem;
+    justify-content: center;
+}
+
+#quotes-section .quote {
+    color: #4A4A4A;
+    font-family: "Palatino", serif;
+    font-size: 1.875rem;
+    font-style: italic;
+    line-height: 1.1;
+    padding-right: 1.875rem;
+}
+
+#quotes-section .quote-citation {
+    height: 1.875rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #9B9B9B;
+    box-sizing: border-box;
+    height: 3.875rem;
+    padding: 1.5625rem 2rem;
+}
+
+footer .content {
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100%;
+}
+
+footer .copyright {
+    flex-grow: 1;
+    font-size: 0.75rem;
+}
+
+footer .location {
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 760px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .tablet {
+        display: block;
+        width: 100%;
+    }
+
+    header .mobile {
+        display: none;
+    }
+
+    header .content {
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        padding: .5rem 0;
+    }
+
+    header .logo {
+        padding-left: 1.5rem;
+    }
+
+    header .tablet ul {
+        align-items: center;
+        display: flex;
+        justify-content: end;
+    }
+
+    header .tablet li {
+        padding: 0 1rem;
+    }
+
+    header .tablet .button {
+        background-color: #9DC20B;
+        color: white;
+        line-height: 1.6;
+        padding: .1875rem .5rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .main-content {
+        top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #sign-up-section {
+        height: 28rem;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #sign-up-cta {
+        background-color: transparent;
+        border: none;
+        height: auto;
+        padding: 0;
+        position: static;
+        width: auto;
+    }
+
+    #sign-up-cta .content {
+        margin-top: 0;
+    }
+
+    #sign-up-cta .email {
+        display: none;
+    }
+
+    #sign-up-cta h1 {
+        font-size: 3.125rem;
+    }
+
+    #sign-up-cta h2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #features-section {
+        flex-direction: row;
+        padding: 1rem 1rem;
+    }
+
+    .feature {
+        margin: .5rem;
+        padding: 1.25rem 1rem 0 1rem;
+    }
+
+    .feature h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #filters-section {
+        padding: 0;
+    }
+
+    #filters-section .content {
+        margin: 0;
+        padding: 3rem;
+    }
+
+    #filters-section .content h2 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        line-height: 1;
+        padding-bottom: .4rem;
+    }
+
+    #filters-section .content h3 {
+        font-size: .875rem;
+        line-height: 1.4;
+    }
+
+    #filters-section .images-container {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #quotes-section .content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 2.5rem 0;
+        width: 100%;
+    }
+
+    #quotes-section .quote {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    #quotes-section .quote-citation {
+        display: block;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    footer .content {
+        font-size: .625rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .logo {
+        display: none;
+    }
+
+    header .tablet ul {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .tablet {
+        display: none;
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    header .content {
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .mobile ul {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile li {
+        padding: 0 1rem;
+    }
+
+    .mobile ul li a img {
+        vertical-align: middle;
+    }
+
+    .mobile .button {
+        background-color: #9DC20B;
+        color: white;
+        line-height: 1.6;
+        padding: .1875rem .5rem;
+    }
+
+    .mobile li:nth-of-type(4) {
+        padding-left: 0;
+    }
+
+    #sign-up-section {
+        display: flex;
+        height: 20rem;
+    }
+
+    #sign-up-cta .content {
+        width: 100%;
+    }
+
+    #sign-up-cta h1 {
+        font-size: 2.25rem;
+        padding: 0 2rem;
+    }
+
+    #sign-up-cta h2 {
+        font-size: 2rem;
+    }
+
+    #features-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .feature .content {
+        box-sizing: border-box;
+        padding: 1.5rem 0 0;
+    }
+
+    .feature {
+        margin: 0;
+        padding: 1rem 1rem 1.875rem;
+    }
+
+    .feature h2 {
+        color: #4A4A4A;
+        font-size: 1.125rem;
+        font-weight: bold;
+        line-height: 1.3;
+        padding-bottom: .5rem;
+    }
+
+    .feature h3 {
+        color: #4A4A4A;
+        font-size: 0.875rem;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+
+    #filters-section .extra {
+        display: none;
+    }
+
+    #filters-section .content h2 {
+        font-size: 1.125rem;
+        padding-bottom: 1.2rem;
+    }
+
+    #filters-section .content {
+        padding: 1.5rem;
+    }
+
+    #filters-section .content h3 {
+        font-size: 0.875rem;
+    }
+
+    #quotes-section .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #quotes-section .quote {
+        padding-bottom: 1rem;
+    }
+
+    #quotes-section .quote-citation {
+        padding: 0;
+    }
+
+    footer .content {
+        color: white;
+        display: flex;
+    }
+
+    footer .copyright, footer .location {
+        font-size: 0.625rem;
+    }
+
+}
